@@ -8,6 +8,10 @@ export default function ExcluirProdutos() {
 
     document.title = "Excluir Produtos " + id;
 
+
+    //Criar uma estratégia para recuperar o produto na lista
+    // Utilizando o id
+    // const produtoRecuperadoPorId = ListaProduto.filter(item => item.id == parseInt(id));
     const produtoRecuperadoPorId = ListaProduto.filter(item => item.id == parseInt(id))[0];
 
   return (
